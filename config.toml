@@ -1,7 +1,7 @@
 baseURL = "localhost:1313"
 languageCode = "en-us"
-title = "My Portfolio Website"
-theme = "hugo_lodi"
+title = "SaminYeasarArnob"
+theme = "lodi"
 googleAnalytics = "UA-XXXXXXXX-Y"
 
 [params]
@@ -10,32 +10,37 @@ googleAnalytics = "UA-XXXXXXXX-Y"
     description_photo = "portfolio.jpg"
     favicon = "favicon.png"
     logo = "logo.png"
-    email = "myemail@gmail.com"
-    facebook = "lex.collado"
-    twitter = "lexiscollado"
-    dribbble = "alexiscollado"
-    linkedin = "https://www.linkedin.com/in/alexander-hans-collado-jr-9444146a"
-    medium = "ahvccollado"
-    github = "github"
-    googlescholar = "https://scholar.google.com/citations?user=XXXXXXXXXXXXXXXXXXXXX=en"
+    email = "arnobsam@mila.quebec"
+    #facebook = "lex.collado"
+    #twitter = "lexiscollado"
+    #dribbble = "alexiscollado"
+    linkedin = "https://www.linkedin.com/in/samin-yeasar-arnob/"
+    #medium = "ahvccollado"
+    github = "https://github.com/SaminYeasar"
+    googlescholar = "https://scholar.google.ca/citations?user=RMPv4RQAAAAJ&hl=en"
 
 [params.nav]
     enable = true
 
 [params.hero]
     enable = true
-    avatar = "avatar.jpg"
-    subtitle = "Hi! I'm Alexis, a UX Designer and Evangelist from Manila."
-    hero_right = ["**Currently doing consultancy work at UX Society. Previously doing UX and product at Agoda in Bangkok, Thailand as an international intern.**", "I founded [User Experience Society](https://www.facebook.com/UXSoc/), the first student UX organization in the Philippines. For two years, we've had 20+ events with 30+ speakers for over 300 members and 500+ attendees. We've expanded to [California](https://www.facebook.com/profile.php?id=245708449193012) this year.", "I do a bit of writing as well. [Here's an article with a total of 21,000+ views to InVision & Medium](http://blog.invisionapp.com/ux-internship-wisdom/) talking about 50 things I learned spending 3 years as a UX intern.", "I help cultivate the design community in Manila too. I'm the youngest core member of [UX Philippines](https://www.facebook.com/groups/uxphilippines/) and I moderated a panel with some cool people for the [UXPH 2017 Conference](https://www.uxphilippines.com).", "I'm finishing my Bachelor's degree in Management Information Systems at the Ateneo de Manila University, expecting to graduate in 2018."]
-    resume = "ResumeCollado.pdf"
+    avatar = "avatar__.jpg"
+    subtitle = "Hi! This is Samin Yeasar Arnob. I am a Ph.D. student at McGill University."
+    hero_right = ["I have started **Ph.D.** from January 2020 in **Computer Science** at **McGill University** under the supervision of [Dr. Doina Precup](https://www.linkedin.com/in/doina-precup-1ba61314/?originalSubdomain=ca) at [Reasoning and learning lab (rllab)](http://rl.cs.mcgill.ca/) and at [Mila](https://mila.quebec/en/).**", 
+		"I have completed my **Masters** from **Electrical and Computer Engineering** at **McGill University**.  My master’s research was on **Adversarial Inverse Reinforcement Learning** under the supervision of [Dr. Aditya Mahajan](http://www.ece.mcgill.ca/~amahaj1/) at System and Control Group.", 
+		"I have also worked at **Mila** as an **intern** with **Dr. Doina Precup** on NeurIPS MineRL competition 2019, where we explore learning transferable skills over multiple environments from MineCraft gaming environment using imitation learning", 
+		"I completed my Under-graduation from Islamic University of Technology (IUT), Bangladesh. I had the pleasure to work on **Computational Nano-photonics** and was supervised by [Dr. Md. Ruhul Amin](https://scholar.google.com/citations?user=flcwae0AAAAJ&hl=en) and co-supervised by [Dr. Rakibul Hasan Sagor](https://scholar.google.com/citations?user=6gyN_V0AAAAJ&hl=en)."]
+    resume = "Single_Page_CV_2"
 
+
+# ==== TODO ==== #
 [params.process]
-    enable = true
+    enable = false
     title = "My Process"
     subtitle = "Full Process Design"
 
 [params.case_studies]
-    enable = true
+    enable = false
     title = "Case Studies"
     subtitle = "Selected Works"
 
